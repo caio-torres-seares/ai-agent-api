@@ -5,4 +5,5 @@ pydantic>=2.12.0
 pydantic-settings>=2.12.0
 strands-agents>=1.18.0
 strands-agents-tools>=0.2.16
+slowapi>=0.1.9
 ollama
