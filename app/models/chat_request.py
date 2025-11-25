@@ -1,10 +1,11 @@
 from pydantic import BaseModel, Field, field_validator
+from app.core.config import settings
 
 class ChatRequest(BaseModel):
     message: str = Field(
         ..., 
         min_length=1,
-        max_length=3000,
+        max_length=settings.MAX_PROMPT_LENGTH,
         description="Mensagem do usuário para o agente"
     )
 
