@@ -80,9 +80,9 @@ DIRETRIZES DE RESPOSTA:
     pergunta = "Você acha que devo contratar o Caio Torres Seares para a vaga de Engenharia de Dados/IA na minha equipe? Justifique tecnicamente sua resposta com base nas competências listadas e use o máximo possível de 1000 caracteres."
 
     print("\n")
-    print("-"*150)
+    print("-"*134)
     print(f"Enviando pergunta ao agente: Você acha que devo contratar o Caio Torres Seares para a vaga de Engenharia de Dados/IA na minha equipe?")
-    print("-"*150)
+    print("-"*134)
     response = agent(pergunta)
 
     print("\n")
