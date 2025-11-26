@@ -17,3 +17,5 @@ Dockerfile
 .pytest_cache/
 tests/
 pytest.ini
+
+*.pdf
