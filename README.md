@@ -1,4 +1,4 @@
-# DreamSquad Challenge API 🚀
+# AI Agent API – FastAPI, Strands Agents & Ollama 🧠🚀
 
 <div align="start">
 
@@ -126,7 +126,7 @@ HTTP Request →   API Router →   Service →      Agent →     Ollama
 ### Instalação
 ```bash
 # 1. Clonar repositório
-git clone https://github.com/caio-torres-seares/dreamsquad_challenge.git
+git clone https://github.com/caio-torres-seares/ai-agent-api.git
 cd dreamsquad_challenge
 
 # 2. Criar ambiente virtual
